@@ -1,0 +1,19 @@
+.MJX-TEX {
+  font-size: 1.25em;
+  padding-top: 0em;
+}
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  text-indent: 0;
+  font-style: normal;
+  font-size: 1.5em;
+  /* font-size-adjust: 120% !important; */
+  letter-spacing: normal;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* padding: 1px 0; */
+  font-weight: 800 !important;
+}
