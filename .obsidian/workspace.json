@@ -128,13 +128,21 @@
                 "file": "Notes Demo.md"
               }
             }
+          },
+          {
+            "id": "313a58b0d6b338e7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
