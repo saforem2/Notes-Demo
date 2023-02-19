@@ -80,37 +80,6 @@ function escapeStringRegexp(string) {
 
 // src/settings.ts
 var import_obsidian = __toModule(require("obsidian"));
-var iconOptions = [
-  "lucide-alert-triangle",
-  "lucide-bookmark-plus",
-  "lucide-bookmark",
-  "lucide-bug",
-  "lucide-calendar",
-  "lucide-check-circle-2",
-  "lucide-check",
-  "lucide-clipboard-list",
-  "lucide-clock",
-  "lucide-flag",
-  "lucide-flame",
-  "lucide-heart",
-  "lucide-help-circle",
-  "lucide-highlighter",
-  "lucide-info",
-  "lucide-key",
-  "lucide-list",
-  "lucide-map-pin",
-  "lucide-megaphone",
-  "lucide-message-circle",
-  "lucide-pencil",
-  "lucide-slash",
-  "lucide-star",
-  "lucide-thumbs-down",
-  "lucide-thumbs-up",
-  "lucide-trash2",
-  "lucide-x",
-  "lucide-zap",
-  "quote-glyph"
-];
 function buildSettingCallout(root, callout) {
   root.empty();
   root.createDiv({
@@ -143,7 +112,74 @@ function buildSettingCallout(root, callout) {
     });
   });
 }
-function buildSetting(containerEl, plugin, index, callout) {
+function attachIconMenu(btn, onSelect) {
+  let menuRef = null;
+  const btnEl = btn.buttonEl;
+  btn.onClick((e) => {
+    e.preventDefault();
+    const scrollParent = btnEl.closest(".vertical-tab-content");
+    const destroyEventHandlers = () => {
+      btnEl.win.removeEventListener("click", clickOutside);
+      scrollParent.removeEventListener("scroll", scroll);
+    };
+    const clickOutside = (e2) => {
+      if (menuRef) {
+        if (!menuRef.contains(e2.targetNode)) {
+          menuRef.detach();
+          menuRef = null;
+          destroyEventHandlers();
+        }
+      } else {
+        destroyEventHandlers();
+      }
+    };
+    const calcMenuPos = () => {
+      let pos = `top: ${btnEl.offsetTop + btnEl.offsetHeight + 2 - scrollParent.scrollTop}px;`;
+      if (import_obsidian.Platform.isMobile) {
+        pos += ` right: ${btnEl.offsetParent.clientWidth - (btnEl.offsetLeft + btnEl.offsetWidth)}px;`;
+      } else {
+        pos += ` left: ${btnEl.offsetLeft}px;`;
+      }
+      menuRef.style.cssText = pos;
+    };
+    const scroll = () => {
+      if (menuRef) {
+        calcMenuPos();
+      } else {
+        destroyEventHandlers();
+      }
+    };
+    if (menuRef) {
+      destroyEventHandlers();
+      menuRef.detach();
+      menuRef = null;
+      return;
+    }
+    createDiv("lc-menu", (menu) => {
+      menuRef = menu;
+      btnEl.after(menuRef);
+      calcMenuPos();
+      (0, import_obsidian.getIconIds)().forEach((icon) => {
+        menuRef.createDiv("clickable-icon", (item) => {
+          (0, import_obsidian.setIcon)(item, icon);
+          item.onClickEvent(() => {
+            btn.buttonEl.empty();
+            btn.setIcon(icon);
+            onSelect(icon);
+            destroyEventHandlers();
+            menuRef.detach();
+            menuRef = null;
+          });
+        });
+      });
+    });
+    btnEl.win.setTimeout(() => {
+      btnEl.win.addEventListener("click", clickOutside);
+      scrollParent.addEventListener("scroll", scroll);
+    }, 10);
+  });
+}
+function buildSetting(containerEl, plugin, index, callout, onDelete) {
   containerEl.createDiv({ cls: "lc-setting" }, (el) => {
     const calloutContainer = el.createDiv({ cls: "lc-callout-container" });
     buildSettingCallout(calloutContainer, callout);
@@ -161,36 +197,83 @@ function buildSetting(containerEl, plugin, index, callout) {
         } else {
           btn.setButtonText("Set Icon");
         }
-        btn.onClick((e) => {
-          var _a;
-          const menu = new import_obsidian.Menu().setUseNativeMenu(false);
-          (_a = menu.dom) == null ? void 0 : _a.addClass("lc-menu");
-          menu.addItem((item) => {
-            item.setTitle("No icon");
-            item.onClick(() => {
-              delete plugin.settings[index].icon;
-              plugin.saveSettings();
-              buildSettingCallout(calloutContainer, plugin.settings[index]);
-              btn.buttonEl.empty();
-              btn.setButtonText("Set Icon");
-            });
-          });
-          iconOptions.forEach((icon) => {
-            menu.addItem((item) => {
-              item.setIcon(icon);
-              item.onClick(() => {
-                plugin.settings[index].icon = icon;
-                plugin.saveSettings();
-                buildSettingCallout(calloutContainer, plugin.settings[index]);
-                btn.buttonEl.empty();
-                btn.setIcon(icon);
-              });
-            });
-          });
-          menu.showAtMouseEvent(e);
+        attachIconMenu(btn, (icon) => {
+          if (icon == null) {
+            delete plugin.settings[index].icon;
+          } else {
+            plugin.settings[index].icon = icon;
+          }
+          plugin.saveSettings();
+          buildSettingCallout(calloutContainer, plugin.settings[index]);
         });
       });
+      if (callout.custom) {
+        const [r, g, b] = callout.color.split(",").map((v) => parseInt(v.trim(), 10));
+        const color = new import_obsidian.ColorComponent(inputContainer).setValueRgb({ r, g, b }).onChange((_value) => {
+          const { r: r2, g: g2, b: b2 } = color.getValueRgb();
+          plugin.settings[index].color = `${r2}, ${g2}, ${b2}`;
+          plugin.saveSettings();
+          buildSettingCallout(calloutContainer, plugin.settings[index]);
+        });
+      }
+      if (callout.custom) {
+        const rightAlign = inputContainer.createDiv({
+          cls: "lc-input-right-align"
+        });
+        new import_obsidian.ButtonComponent(rightAlign).setButtonText("Delete").setWarning().onClick((_e) => {
+          onDelete(index);
+        });
+      }
     });
+  });
+}
+function buildNewCalloutSetting(containerEl, plugin, onSubmit) {
+  const callout = {
+    char: "",
+    color: "158, 158, 158",
+    icon: null,
+    custom: true
+  };
+  containerEl.createDiv({ cls: "lc-setting" }, (settingContainer) => {
+    settingContainer.createDiv({ cls: "setting-item-name" }, (e) => e.setText("Create a new Callout"));
+    settingContainer.createDiv({ cls: "setting-item-description" }, (e) => e.setText("Create additional list callout styles."));
+    const calloutContainer = settingContainer.createDiv({
+      cls: "lc-callout-container"
+    });
+    const inputContainer = settingContainer.createDiv({
+      cls: "lc-input-container"
+    });
+    const char = new import_obsidian.TextComponent(inputContainer).setValue("").setPlaceholder("...").onChange((value) => {
+      callout.char = value;
+      redraw();
+    });
+    const icon = new import_obsidian.ButtonComponent(inputContainer).setButtonText("Set Icon");
+    attachIconMenu(icon, (icon2) => {
+      if (icon2 == null) {
+        delete callout.icon;
+      } else {
+        callout.icon = icon2;
+      }
+      redraw();
+    });
+    const color = new import_obsidian.ColorComponent(inputContainer).setValueRgb({ r: 127, g: 127, b: 127 }).onChange((_value) => {
+      const { r, g, b } = color.getValueRgb();
+      callout.color = `${r}, ${g}, ${b}`;
+      redraw();
+    });
+    const rightAlign = inputContainer.createDiv({
+      cls: "lc-input-right-align"
+    });
+    const submit = new import_obsidian.ButtonComponent(rightAlign).setButtonText("Create").setDisabled(true).onClick(() => {
+      onSubmit(callout);
+    });
+    function redraw() {
+      buildSettingCallout(calloutContainer, callout);
+      const hasNoCharacter = callout.char.length === 0;
+      const hasConflictingCharacter = plugin.settings.find((c) => c.char === char.getValue()) !== void 0;
+      submit.setDisabled(hasNoCharacter || hasConflictingCharacter);
+    }
+    redraw();
   });
 }
 var ListCalloutSettings = class extends import_obsidian.PluginSettingTab {
@@ -209,7 +292,16 @@ var ListCalloutSettings = class extends import_obsidian.PluginSettingTab {
       }));
     }));
     this.plugin.settings.forEach((callout, index) => {
-      buildSetting(containerEl, this.plugin, index, callout);
+      buildSetting(containerEl, this.plugin, index, callout, (indexToDelete) => {
+        this.plugin.settings.splice(indexToDelete, 1);
+        this.plugin.saveSettings();
+        this.display();
+      });
+    });
+    buildNewCalloutSetting(containerEl, this.plugin, (callout) => {
+      this.plugin.settings.push(callout);
+      this.plugin.saveSettings();
+      this.display();
     });
   }
 };
@@ -468,9 +560,14 @@ var ListCalloutsPlugin = class extends import_obsidian4.Plugin {
   loadSettings() {
     return __async(this, null, function* () {
       const loadedSettings = yield this.loadData();
+      const customCallouts = loadedSettings == null ? void 0 : loadedSettings.filter((callout) => callout.custom === true);
+      const modifiedBuiltins = loadedSettings == null ? void 0 : loadedSettings.filter((callout) => callout.custom !== true);
       this.settings = DEFAULT_SETTINGS.map((s, i) => {
-        return Object.assign({}, s, loadedSettings ? loadedSettings[i] : {});
+        return Object.assign({}, s, modifiedBuiltins ? modifiedBuiltins[i] : {});
       });
+      if (customCallouts) {
+        this.settings.push(...customCallouts);
+      }
     });
   }
   saveSettings() {

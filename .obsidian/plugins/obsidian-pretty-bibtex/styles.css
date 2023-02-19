@@ -1,0 +1,15 @@
+.bibtex.normal {
+    color: var(--text-faint);
+}
+
+.bibtex.value {
+    color: var(--text-muted);
+}
+
+.bibtex.key {
+    color: var(--text-faint);
+}
+
+.bibtex.header {
+    color: var(--text-accent);
+}

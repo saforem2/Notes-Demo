@@ -1,13 +1,13 @@
 {
-  "accentColor": "",
+  "accentColor": "#40c4ff",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "callouts",
     "center-img",
     "clean-embeds",
     "clean-embeds-all",
-    "list-callouts",
     "material-darker",
-    "math_font"
+    "math_font",
+    "list-callouts"
   ]
 }

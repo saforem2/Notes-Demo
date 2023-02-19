@@ -78,5 +78,10 @@
   "email-block-plugin",
   "webpage-html-export",
   "obsidian-projects",
-  "simple-embeds"
+  "simple-embeds",
+  "obsidian-better-command-palette",
+  "obsidian-mkdocs-publisher",
+  "quick-explorer",
+  "obsidian-remember-file-state",
+  "actions-uri"
 ]

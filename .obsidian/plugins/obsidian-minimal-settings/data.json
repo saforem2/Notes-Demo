@@ -19,7 +19,7 @@
   "chartWidth": "chart-default-width",
   "colorfulHeadings": false,
   "colorfulFrame": false,
-  "colorfulActiveStates": false,
+  "colorfulActiveStates": true,
   "trimNames": true,
   "labeledNav": false,
   "fullWidthMedia": true,
@@ -27,10 +27,10 @@
   "minimalStatus": true,
   "focusMode": false,
   "underlineInternal": true,
-  "underlineExternal": true,
+  "underlineExternal": false,
   "useSystemTheme": false,
   "folding": true,
   "lineNumbers": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "devBlockWidth": false
 }

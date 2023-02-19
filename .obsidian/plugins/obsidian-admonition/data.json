@@ -1,0 +1,64 @@
+{
+  "userAdmonitions": {
+    "new": {
+      "type": "new",
+      "color": "255, 255, 0",
+      "icon": {
+        "name": "bolt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    },
+    "changes": {
+      "type": "changes",
+      "color": "0, 204, 255",
+      "icon": {
+        "name": "pencil-alt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    },
+    "done": {
+      "type": "done",
+      "color": "255, 82, 82",
+      "icon": {
+        "type": "obsidian",
+        "name": "checkbox-glyph"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "9.2.1",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": false,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [
+    "octicons",
+    "rpg"
+  ],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.635775"
+}
