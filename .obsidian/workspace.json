@@ -48,16 +48,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce76cdc7e2076a96",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "6d03a1d92f7040a6",
+        "id": "9ea1013d7b7bc252",
         "type": "tabs",
         "children": [
           {
-            "id": "af2f0586a5e23634",
+            "id": "72134273b4aa793d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -167,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0656439132e9919",
@@ -345,8 +361,8 @@
   },
   "active": "3647ec5ceb1ed872",
   "lastOpenFiles": [
-    "Home.md",
     "slides/demo/slides.md",
+    "Home.md",
     "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
     "2023-02-19.md",

@@ -37,7 +37,7 @@
       "copy": true
     }
   },
-  "syntaxHighlight": false,
+  "syntaxHighlight": true,
   "copyButton": true,
   "version": "9.2.1",
   "autoCollapse": false,
@@ -56,7 +56,7 @@
     "octicons",
     "rpg"
   ],
-  "useFontAwesome": true,
+  "useFontAwesome": false,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
   "useSnippet": false,
