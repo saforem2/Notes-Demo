@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b2f3cbf30afadd07",
+        "id": "6f971a47bc769e13",
         "type": "tabs",
         "children": [
           {
-            "id": "96392560dbe46c7e",
+            "id": "2dac5c464fc32e08",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,27 +16,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3647ec5ceb1ed872",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "slides",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/slides/slides.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":25},\"to\":{\"line\":8,\"ch\":25}}}"
                 }
               ]
             },
@@ -50,7 +35,7 @@
             }
           },
           {
-            "id": "ce76cdc7e2076a96",
+            "id": "1d03624d5511b7ae",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -62,19 +47,23 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "templates/slides/slides.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "59b20db5874db589",
+        "id": "eebb630184952f33",
         "type": "tabs",
         "children": [
           {
-            "id": "fd71fa40d77b8709",
+            "id": "b0873e723d6eb99f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -184,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0656439132e9919",
@@ -209,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "templates/slides/slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "templates/slides/slides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slides/demo/slides.md"
+                "file": "templates/slides/slides.md"
               }
             }
           },
@@ -356,15 +346,18 @@
       "obsidian42-brat:BRAT": false,
       "obsidian-trim-whitespace:Trim whitespace": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "publish:Publish changes": false
     }
   },
-  "active": "3647ec5ceb1ed872",
+  "active": "1d03624d5511b7ae",
   "lastOpenFiles": [
-    "Home.md",
     "slides/demo/slides.md",
-    "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
+    "templates/slides/slides.md",
+    "slides/ai4sci-large-scale-training/slides.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
+    "Home.md",
+    "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
     "2023-02-19.md",
     "Notes Demo.md"
   ]

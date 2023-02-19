@@ -2,23 +2,23 @@
   "recentFiles": [
     {
       "basename": "slides",
+      "path": "templates/slides/slides.md"
+    },
+    {
+      "basename": "slides",
       "path": "slides/demo/slides.md"
+    },
+    {
+      "basename": "2023-02-19",
+      "path": "PeriodicNotes/2023/02/2023-02-19.md"
     },
     {
       "basename": "Home",
       "path": "Home.md"
     },
     {
-      "basename": "slides",
-      "path": "slides/ai4sci-large-scale-training/slides.md"
-    },
-    {
       "basename": "Drawing 2023-02-19 08.05.53.excalidraw",
       "path": "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md"
-    },
-    {
-      "basename": "2023-02-19",
-      "path": "PeriodicNotes/2023/02/2023-02-19.md"
     },
     {
       "basename": "Notes Demo",

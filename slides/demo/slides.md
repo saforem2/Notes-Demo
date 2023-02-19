@@ -37,8 +37,6 @@ Sam Foreman <!-- .element style="color:#505050;" -->
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 # Slides Demo
 
-<p>
-
 > [!DANGER]+ Note callout
 > Testing
 

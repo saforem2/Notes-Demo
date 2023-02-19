@@ -1,54 +1,63 @@
 ---
-title: ''
-center: false
-width: 960
-height: 540
+title: 'Slide Demo'
+center: true
 transition: slide
 background: #1c1c1c
 preloadIframes: false
 highlightTheme: 'monokai'
 maxScale: 20.0
-css:
- - ./css/local.css
+controls: false
 ---
 
-<!-- .slide bg="#1c1c1c" -->
 
-<grid align="center" drop="center" drag="70 25" style="background-color:#282828; border-radius:8px;">
+<!-- .slide template="[[template]]" bg="#1c1c1c" -->
 
-<span style="border-bottom:3px solid var(--r-header-accent); font-weight:800; font-size:1.75em; margin-bottom:0px;">Hyperparameter Management</span>
+<grid
+	  align="center"
+	  drop="center"
+	  drag="65 25"
+	  style="background-color:#282828; border-radius:8px;">
 
-<span style="font-size:0.8em; line-height:0.8em; margin-bottom:0px; margin-top:0px;">[<i class="fab fa-github fa-1x" alt="`fas:Github`"/> argonne-lcf / SDL Workshop](https://github.com/argonne-lcf/sdl_workshop)</span> <!-- .element style="color:#00CCFF!important; font-family:'JuliaMono', monospace" -->
+# Slides Demo
+
+<a href="https://github.com/saforem2/Notes-Demo/blob/master/slides/demo/slides.md">
+<i class="fab fa-github fa-1x" ></i>
+<code><span style="color: #BDBDBD !important; background-color:#282828 !important;">saforem2/Notes-Demo/slides</span></code>
+</a>
 
 </grid>
 
 <grid drag="100 10" drop="0 70" align="bottomleft" >
 
-<i class="fas fa-home" alt="`fas:Home`" style="color=red;"/>
+Sam Foreman <!-- .element style="color:#505050;" -->
 
-<a href="https://www.samforeman.me"><i class="fas fa-home fa-1x" alt="`fas:Home`" /></a> Sam Foreman <!-- .element style="color:#505050;" -->
+<span style="font-size:0.9em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2023-02-19</span>
 
-<span style="font-size:0.9em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2022-10-05
-</grid>
-
-<grid drag="100 20" drop="bottom" align="bottomright" >
-<img src="https://raw.githubusercontent.com/saforem2/physicsSeminar/main/assets/Argonne_cmyk_white.svg" alt="Argonne National Laboratory">
 </grid>
 
 
 ---
 
-<!-- .slide template="[[template]]" bg="#1C1C1C" style="text-align:left;" -->
+<!-- .slide template="[[template]]" bg="#1C1C1C" -->
+
+# Interesting Title
+
+- Blah
+- Blah, blah
 
 ---
 
+
+> [!INFO] Acknowledgements
+> This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
+<!-- .element style="max-width:90%; text-align:left;" -->
+
+---
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 
 # Thank you!
 
 - Feel free to reach out!
-
-<br>
 
 <grid drop="13 37" drag="60 20">
 
@@ -58,12 +67,14 @@ css:
 </grid>
 
 
-> [!info] Acknowledgements
+> [!INFO] Acknowledgements
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 <!-- .element style="max-width:90%;" -->
 
 
-  
+
+
+
 ---
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
@@ -95,12 +106,11 @@ css:
 <style>
 
 :root {
+	--callout-radius: 5px;
 	--cm-inline-background: #242424;
 	--cm-inline-foreground: #00CCFF;
     --r-heading-text-transform: none;
-    --r-heading-font: 'Inter', 'Arial', "OpenSans-Bold", "Open Sans", Helvetica, Impact, sans-serif;
     --r-main-background-color: #1c1c1c!important;
-    --r-main-font: 'Inter', "Arial", "Open Sans", "Coming Soon", "SourceSansPro", Helvetica Neue, sans-serif;
     --r-heading-letter-spacing: -0.45px;
     --r-heading-word-spacing: 0.5px;
     --r-heading-text-transform: none;
@@ -168,13 +178,6 @@ css:
 	--chart-color-x: rgb(255,255,255);
 }
 
-.standout{
-	background: var(--cm-background-color);
-	padding:5px;
-	font-weight:700;
-	border-radius:6px;
-}
-
 .reveal pre {
   display:block;
   margin:auto;
@@ -224,30 +227,6 @@ css:
   max-width:min-content;
 }
 
-.reveal blockquote em{
-  color: var(--text-muted);
-  text-align: left;
-}
-
-.reveal blockquote {
-  border-radius: 8px !important;
-  margin: 0.5rem 0rem 0.5rem 0rem;
-  text-align: left;
-  padding-top: 1rem;
-  padding-left: 2rem;
-  padding-bottom: 1rem;
-  padding-right: 2rem;
-  width: auto;
-  font-style: normal !important;
-}
-
-.reveal blockquote {
-	font-size: unset;
-	margin: auto;
-	padding:auto;
-}
-
-
 .reveal ul, ol {
 	text-align:left;
 }
@@ -269,14 +248,6 @@ css:
 .make-it-pop {
   filter: drop-shadow(0 0 10px purple);
 }
-
-.bottomright {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
 
 @media (max-width: 95%) {
   section {
@@ -314,43 +285,44 @@ css:
 }
 
 .callout {
-  border-left: 6px solid rgb(var(--callout-color));
-  background-color: #;
-  opacity:95%;
-  text-align:left;
-  margin-left: 4%;
-  border-radius:2px;
-  page-break-inside: avoid;
+  border-style: none;
+  border-color: RGBA(var(--callout-color), var(--callout-border-opacity));
+  border-width: var(--callout-border-width);
+  border-radius: var(--callout-radius);
+  margin: 1em 0;
+  mix-blend-mode: var(--callout-blend-mode);
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-padding);
 }
-
-.callout > ul,ol {
-	line-height:1.5em!important;
-}
-
 .callout-title {
-  display: flex;
-  text-align:left;
-  color: var(--callout-color);
-  padding-left:10px;
-  gap: 10px;
-  font-size:1em;
-  top: 0;
-  position:relative;
-  margin-top:0px!important;
-  margin-bottom:0em!important;
-  padding-top:0px!important;
-  padding-bottom:0px!important;
-  border-radius:2px;
-  background-color: rgba(var(--callout-color), 0.3);
+  font-size: var(--callout-title-size);
+  color: RGB(var(--callout-color));
+  background-color: RGB(var(--callout-color), 0.0);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
 }
-
 .callout-content {
-	padding: 1px!important;
-	top: 0;
-	margin-left: 1%;
-    padding-bottom:0.75em;
-	padding:auto;
-    line-height:1em!important;
+  overflow-x: auto;
+  padding: auto;
+  background-color: var(--callout-content-background);
+}
+.callout-icon {
+  flex: 0 0 auto;
+  padding: auto;
+  display: flex;
+  align-self: center;
+}
+.callout-icon .svg-icon {
+  color: RGB(var(--callout-color));
+}
+.callout-title-inner {
+  font-weight: var(--bold-weight);
+  color: var(--callout-title-color);
+}
+.callout-fold {
+  display: flex;
+  align-items: center;
+  padding-right: var(--size-4-2);
 }
 
 .reveal .code-wrapper code {

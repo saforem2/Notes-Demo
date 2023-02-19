@@ -1,0 +1,12 @@
+{
+  "inlineCSS": true,
+  "inlineJS": true,
+  "inlineImages": true,
+  "makeNamesWebStyle": false,
+  "includePluginCSS": "cm-editor-syntax-highlight-obsidian\nobsidian-advanced-slides\nmermaid-tools\nobsidian-codemirror-options\nobsidian-icon-shortcodes\nobsidian-excalidraw-plugin",
+  "addDarkModeToggle": true,
+  "includeOutline": true,
+  "customLineWidth": 0,
+  "openAfterExport": true,
+  "lastExportPath": ""
+}
