@@ -9,23 +9,24 @@ height: 540
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 
-<grid align="center" drop="center" drag="65 25" style="background-color:#282828; border-radius:8px;">
+<grid
+	  align="center"
+	  drop="center"
+	  drag="65 25"
+	  style="background-color:#282828; border-radius:8px;">
 
 # Slides Demo
 
 <a href="https://github.com/saforem2/Notes-Demo/blob/master/slides/demo/slides.md">
-
 <i class="fab fa-github fa-1x" ></i>
 <code><span style="color:#bdbdbd!important;background-color:#282828!important;">saforem2/Notes-Demo/slides/demo/slides</span></code>
-</p>
-
 </a>
 
 </grid>
 
 <grid drag="100 10" drop="0 70" align="bottomleft" >
 
-Sam Foreman <!-- .elemenstyle=""le="color:#505050;" -->
+Sam Foreman <!-- .element style="color:#505050;" -->
 
 <span style="font-size:0.9em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2023-02-19</span>
 
@@ -36,10 +37,12 @@ Sam Foreman <!-- .elemenstyle=""le="color:#505050;" -->
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 # Slides Demo
 
-<i class="callout">
-Testing
+<p>
 
-</i>
+> [!DANGER]+ Note callout
+> Testing
+
+</p>
 
 ---
 
@@ -51,14 +54,15 @@ Testing
 
 ---
 
-
-
 <style>
 
 :root {
-	--cm-inline-background: #242424;
-	--cm-inline-foreground: #00CCFF;
+    --callout-radius:5px;
+    --r-math-color:#FAFAFA;
+    --cm-inline-background: #242424;
+    --cm-inline-foreground: #00CCFF;
     --r-heading-text-transform: none;
+    --primaryBorderColor: #666666;
     --r-heading-font: 'Inter', 'Arial', "OpenSans-Bold", "Open Sans", Helvetica, Impact, sans-serif;
     --r-main-background-color: #1c1c1c!important;
     --r-main-font: 'Inter', "Arial", "Open Sans", "Coming Soon", "SourceSansPro", Helvetica Neue, sans-serif;
@@ -69,7 +73,7 @@ Testing
     --r-heading-font-weight: 700;
     --r-heading1-text-shadow: none;
     --r-main-font-size: 22px;
-	--r-main-line-height: 1.5em;
+    --r-main-line-height: 1.5em;
     --r-monospace-font-size: 18px;
     --r-heading1-size: 1.33em;
     --r-heading2-size: 1.25em;
@@ -77,63 +81,65 @@ Testing
     --r-heading4-size: 1.15em;
     --r-heading5-size: 1.05em;
     --r-heading6-size: 1.025em;
-	--r-heading-line-height:1.5em;
-    --r-code-font: 'JuliaMono', 'Hack', 'VictorMono', "agave Nerd Font", monospace;
+    --r-heading-line-height:1.5em;
+    --r-main-font-family: 'Inter';
+    --r-code-font: "JuliaMono", "agave Nerd Font", "Hack", "VictorMono", monospace;
     --r-link-color: #03A9F4;
     --r-link-color-dark: #f92672;
     --r-link-color-hover: #63ff51;
-	--r-accent-color: #77CA29;
+    --r-accent-color: #77CA29;
     --r-controls-color: #228BE6;
     --r-progress-color: #404040;
-	--r-header-accent: #1E8BC9;
-    --r-selection-background-color: rgba(255, 255, 0, 0.15);
-    --r-selection-color: rgb(255, 255, 0);
+    --r-header-accent: #1E8BC9;
+    --r-selection-background-color: RGBA(255, 255, 0, 0.15);
+    --r-selection-color: RGB(255, 255, 0);
     --r-main-color: #c8c8c8;
     --text-muted: #757575;
     --text-faint: #404040;
     --r-heading-color: #FFF;
-    --r-background-color: #ffffff;
-	--cm-keyword: #c792ea;
-	--cm-atom: #f78c6c;
-	--cm-number: #ff5370;
-	--cm-type: #decb6b;
-	--cm-def: #82aaff;
-	--cm-property: #c792ea;
-	--cm-variable: #f07178;
-	--cm-variable-2: #EEFFFF;
-	--cm-variable-3: #f07178;
-	--cm-definition: #82aaff;
-	--cm-callee: #89ddff;
-	--cm-qualifier: #decb6b;
-	--cm-operator: #89ddff;
-	--cm-hr: #98e342;
-	--cm-link: #696d70;
-	--cm-error-bg: #ff5370;
-	--cm-header: #da7dae;
-	--cm-builtin: #ffcb6b;
-	--cm-meta: #ffcb6b;
-	--cm-matching-bracket: #FFFFFF;
-	--cm-tag: #ff5370;
-	--cm-tag-in-comment: #ff5370;
-	--cm-string-2: #f07178;
-	--cm-bracket: #ff5370;
-	--cm-comment: #676e95;
-	--cm-string: #c3e88d;
-	--cm-attribute: #c792ea;
-	--cm-attribute-in-comment: #c792ea;
-	--cm-background-color: #202020;
-	--cm-active-line-background-color: #353a50;
-	--cm-foreground-color: #bdbdbd;
-      -webkit-font-smoothing:subpixel-antialiased;
-	--chart-color-1: #ff00ff;
-	--chart-color-x: rgb(255,255,255);
+    --r-background-color: #1c1c1c;
+    --cm-keyword: #c792ea;
+    --cm-atom: #f78c6c;
+    --cm-number: #ff5370;
+    --cm-type: #decb6b;
+    --cm-def: #82aaff;
+    --cm-property: #c792ea;
+    --cm-variable: #f07178;
+    --cm-variable-2: #EEFFFF;
+    --cm-variable-3: #f07178;
+    --cm-definition: #82aaff;
+    --cm-callee: #89ddff;
+    --cm-qualifier: #decb6b;
+    --cm-operator: #89ddff;
+    --cm-hr: #98e342;
+    --cm-link: #696d70;
+    --cm-header: #da7dae;
+    --cm-builtin: #ffcb6b;
+    --cm-meta: #ffcb6b;
+    --cm-matching-bracket: #FFFFFF;
+    --cm-tag: #ff5370;
+    --cm-tag-in-comment: #ff5370;
+    --cm-string-2: #f07178;
+    --cm-bracket: #ff5370;
+    --cm-comment: #676e95;
+    --cm-string: #c3e88d;
+    --cm-attribute: #c792ea;
+    --cm-attribute-in-comment: #c792ea;
+    --cm-background-color: #1c1c1c;
+    --cm-active-line-background-color: #353a50;
+    --cm-foreground-color: #AE81FF;
+    --code-normal: #AE81FF;
+    -webkit-font-smoothing:subpixel-antialiased;
+    --font-smoothing:subpixel-antialiased;
+    --chart-color-1: #ff00ff;
+    --chart-color-x: RGB(255.0,255.0,255.0);
 }
 
 .standout{
-	background: var(--cm-background-color);
-	padding:5px;
-	font-weight:700;
-	border-radius:6px;
+    background: var(--cm-background-color);
+    padding:5px;
+    font-weight:700;
+    border-radius:6px;
 }
 
 .reveal pre {
@@ -151,17 +157,17 @@ Testing
   padding:auto!important;
 }
 
-.reveal pre code {
+.reveal pre code {
     display: inline-block;
-	top: 2px;
-	white-space: pre;
+    top: 2px;
+    white-space: pre;
     bottom: 2px;
-	margin:auto;
-	padding:auto;
+    margin:auto;
+    padding:auto;
     font-size: 0.8em;
     background:var(--cm-background-color);
     color: var(--cm-foreground-color)!important;
-	text-align: justify;
+    text-align: justify;
     letter-spacing: -0.45px!important;
     word-spacing: -0.5px!important;
 }
@@ -176,13 +182,11 @@ Testing
 
 
 .reveal blockquote p {
-  color: var(--text-muted);
-  font-style: normal !important;
-  font-align: left;
-  display: inline;
-  text-align: left;
-  min-width:max-content;
-  max-width:min-content;
+    color: var(--text-muted);
+    font-style: normal !important;
+    font-align: left;
+    display: inline;
+    text-align: left;
 }
 
 .reveal blockquote em{
@@ -231,31 +235,11 @@ Testing
   filter: drop-shadow(0 0 10px purple);
 }
 
-.bottomright {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-
 @media (max-width: 95%) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
-
-.horizontal_dotted_line{
-  border-bottom: 2px dotted gray;
 }
 
 .footer {
@@ -269,49 +253,59 @@ Testing
   color:#f8f8f8;
   border-radius:8px;
   background-color:#35353540;
+  width: max-content;
   border-color:#66666640;
   padding: auto;
   margin:auto;
 }
 
+#blue {
+  color: #00CCFF;
+}
+
+#red {
+  color: #FF5252;
+}
+
 .callout {
-  border-left: 6px solid rgb(var(--callout-color));
-  background-color: #;
-  opacity:95%;
-  text-align:left;
-  margin-left: 4%;
-  border-radius:2px;
-  page-break-inside: avoid;
+  border-style: none;
+  border-color: RGBA(var(--callout-color), var(--callout-border-opacity));
+  border-width: var(--callout-border-width);
+  border-radius: var(--callout-radius);
+  margin: 1em 0;
+  mix-blend-mode: var(--callout-blend-mode);
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-padding);
 }
-
-.callout > ul,ol {
-	line-height:1.5em!important;
-}
-
 .callout-title {
-  display: flex;
-  text-align:left;
-  color: var(--callout-color);
-  padding-left:10px;
-  gap: 10px;
-  font-size:1em;
-  top: 0;
-  position:relative;
-  margin-top:0px!important;
-  margin-bottom:0em!important;
-  padding-top:0px!important;
-  padding-bottom:0px!important;
-  border-radius:2px;
-  background-color: rgba(var(--callout-color), 0.3);
+  font-size: var(--callout-title-size);
+  color: RGB(var(--callout-color));
+  background-color: RGB(var(--callout-color), 0.0);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
 }
-
 .callout-content {
-	padding: 1px!important;
-	top: 0;
-	margin-left: 1%;
-    padding-bottom:0.75em;
-	padding:auto;
-    line-height:1em!important;
+  overflow-x: auto;
+  padding: auto;
+  background-color: var(--callout-content-background);
+}
+.callout-icon {
+  flex: 0 0 auto;
+  padding: auto;
+  display: flex;
+  align-self: center;
+}
+.callout-icon .svg-icon {
+  color: RGB(var(--callout-color));
+}
+.callout-title-inner {
+  font-weight: var(--bold-weight);
+  color: var(--callout-title-color);
+}
+.callout-fold {
+  display: flex;
+  align-items: center;
+  padding-right: var(--size-4-2);
 }
 
 .reveal .code-wrapper code {
@@ -321,8 +315,7 @@ Testing
   font-family: var(--r-code-font);
   text-transform: none;
   tab-size: 4;
-  /*border:1px solid red;*/
-  background:var(--cm-background-color);
+  background-color:var(--cm-background-color);
   color: var(--cm-foreground-color);
   border-radius:2px;
   letter-spacing: -0.45px!important;
@@ -342,7 +335,6 @@ Testing
   text-transform: none;
   tab-size: 4;
   padding:auto;
-  /* border:1px solid green; */
   font-size:0.9em!important;
   line-height:inherit;
   background:var(--cm-inline-background);
@@ -350,6 +342,17 @@ Testing
   border-radius:3px;
   letter-spacing: -0.45px!important;
   word-spacing: -0.5px!important;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  color: var(--r-math-color);
+}
+
+mjx-math {
+  color: var(--r-math-color);
+  background: none!important;
+  padding:unset;
+  vertical-align:inherit;
 }
 #customcontrols > ul {
   display: none!important;
@@ -401,7 +404,7 @@ h1 {
   color: #63ff5b;
 }
 
-.hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta {
+.hljs-comment, .hljs-quote, .hljs-deletion {
 	color: #454545;
 }
 
@@ -417,9 +420,9 @@ h1 {
 	color: #FFFF00;
 }
 
-.strong {
-	color: #F92672!important;
-	font-weight: 800;
+strong {
+	color: #FF5252!important;
+	font-weight: 700;
 }
 
 ul {
@@ -433,23 +436,42 @@ ol {
 }
 
 .reveal .code-wrapper code {
-  white-space: pre;
+ st white-space: unset;
 }
 
 .reveal pre {
-white-space: pre;
+white-space: pre-wrap;
 }
+
 
 .reveal sup {
 	font-size:0.6em;
 }
 
-div.code {
-  white-space: pre;
+.markdown-rendered code {
+  color: var(--code-normal)!important;
+  font-family: var(--font-monospace);
 }
 
-.reveal .code-wrapper code {
-  white-space: pre;
+body.fallback-highlighting[class*="theme-"] .markdown-preview-view pre.cm-s-obsidian[class*="language-"], body.fallback-highlighting[class*="theme-"] .markdown-preview-view code[class*="language-"], body.fallback-highlighting[class*="theme-"] .markdown-preview-view .HyperMD-codeblock, body.fallback-highlighting[class*="theme-"] .markdown-preview-view .cm-hmd-codeblock {
+  --font-monospace: var(--cm-font-monospace);
+  color: var(--cm-foreground-color);
+  font-family: var(--cm-font-monospace);
+  font-weight: var(--cm-font-weight);
+  line-height: var(--cm-line-height);
+  font-size: var(--cm-font-size);
+  white-space: var(--cm-wrap-lines);
+}
+
+.reveal .code-wrapper code {
+  color: #B0BEC5;
+  font-family: var(--r-code-font);
+  font-size: 18px;
+  line-height:1.1em;
 }
 
 </style>
+
+<script>
+var config = { theme: 'default', logLevel: 'fatal', securityLevel: 'strict', startOnLoad: true, arrowMarkerAbsolute: false, er: { diagramPadding: 20, layoutDirection: 'TB', minEntityWidth: 100, minEntityHeight: 75, entityPadding: 15, stroke: 'gray', fill: 'honeydew', fontSize: 12, useMaxWidth: true, }, flowchart: { diagramPadding: 8, htmlLabels: true, curve: 'basis', }, sequence: { diagramMarginX: 50, diagramMarginY: 10, actorMargin: 50, width: 150, height: 65, boxMargin: 10, boxTextMargin: 5, noteMargin: 10, messageMargin: 35, messageAlign: 'center', mirrorActors: true, bottomMarginAdj: 1, useMaxWidth: true, rightAngles: false, showSequenceNumbers: false, }, gantt: { titleTopMargin: 25, barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 11, fontFamily: '"Open Sans", sans-serif', numberSectionStyles: 4, axisFormat: '%Y-%m-%d', topAxis: false, }, }; mermaid.initialize(config);
+</script>

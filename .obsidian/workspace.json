@@ -70,11 +70,11 @@
         "currentTab": 1
       },
       {
-        "id": "9ea1013d7b7bc252",
+        "id": "59b20db5874db589",
         "type": "tabs",
         "children": [
           {
-            "id": "72134273b4aa793d",
+            "id": "fd71fa40d77b8709",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -361,8 +361,8 @@
   },
   "active": "3647ec5ceb1ed872",
   "lastOpenFiles": [
-    "slides/demo/slides.md",
     "Home.md",
+    "slides/demo/slides.md",
     "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
     "2023-02-19.md",

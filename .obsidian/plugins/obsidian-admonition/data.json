@@ -56,7 +56,7 @@
     "octicons",
     "rpg"
   ],
-  "useFontAwesome": false,
+  "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
   "useSnippet": false,
