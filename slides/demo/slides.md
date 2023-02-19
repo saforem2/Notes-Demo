@@ -7,6 +7,47 @@ width: 960
 height: 540
 ---
 
+<!-- .slide template="[[template]]" bg="#1c1c1c" -->
+
+<grid align="center" drop="center" drag="65 25" style="background-color:#282828; border-radius:8px;">
+
+# Slides Demo
+
+<a href="https://github.com/saforem2/Notes-Demo/blob/master/slides/demo/slides.md">
+
+<i class="fab fa-github fa-1x" ></i>
+<code><span style="color:#bdbdbd!important;background-color:#282828!important;">saforem2/Notes-Demo/slides/demo/slides</span></code>
+</p>
+
+</a>
+
+</grid>
+
+<grid drag="100 10" drop="0 70" align="bottomleft" >
+
+Sam Foreman <!-- .elemenstyle=""le="color:#505050;" -->
+
+<span style="font-size:0.9em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2023-02-19</span>
+
+</grid>
+
+---
+
+<!-- .slide template="[[template]]" bg="#1c1c1c" -->
+# Slides Demo
+
+
+---
+
+# Slide 2
+
+---
+
+# Slide 3
+
+---
+
+
 
 <style>
 

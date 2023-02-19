@@ -3,7 +3,6 @@ bg: '#1c1c1c'
 title: Large Scale Training
 cssClasses:
   - table-lines
-center: true
 width: 960
 height: 540
 transition: slide
