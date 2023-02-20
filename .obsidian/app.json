@@ -7,5 +7,6 @@
   "useMarkdownLinks": true,
   "showInlineTitle": false,
   "attachmentFolderPath": "./assets",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative"
 }
