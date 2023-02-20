@@ -1,2 +1,0 @@
-
-<% tp.file.selection ( ) %>

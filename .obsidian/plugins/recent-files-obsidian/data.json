@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "notes",
+      "path": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"
+    },
+    {
+      "basename": "paper",
+      "path": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2023-02-19",
+      "path": "PeriodicNotes/2023/02/2023-02-19.md"
+    },
+    {
+      "basename": "networks",
+      "path": "Excalidraw/networks.md"
+    },
+    {
+      "basename": "Notes Demo",
+      "path": "Notes Demo.md"
     },
     {
       "basename": "test",
@@ -27,18 +51,6 @@
     {
       "basename": "template",
       "path": "templates/slides/template.md"
-    },
-    {
-      "basename": "2023-02-19",
-      "path": "PeriodicNotes/2023/02/2023-02-19.md"
-    },
-    {
-      "basename": "Drawing 2023-02-19 08.05.53.excalidraw",
-      "path": "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md"
-    },
-    {
-      "basename": "Notes Demo",
-      "path": "Notes Demo.md"
     }
   ],
   "omittedPaths": [],

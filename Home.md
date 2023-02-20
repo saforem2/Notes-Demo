@@ -10,7 +10,7 @@ title: Home
 CALENDAR file.ctime
 ```
 
-> [!DANGER]+ Recent
+> [!changes]+ Recent
 > ```dataview
 > TASK
 > FROM "PeriodicNotes"
@@ -32,8 +32,7 @@ CALENDAR file.ctime
 > SORT rows.file.day ASC
 > ```
 
-
-> [!check]+ Completed
+> [!DONE]+ Completed
 > ```dataview
 > TASK
 > FROM "PeriodicNotes/Daily"
