@@ -8,6 +8,7 @@
     "math_font",
     "list-callouts",
     "clean-embeds-all",
-    "callouts"
+    "callouts",
+    "custom-admonitions.ab0a7b"
   ]
 }

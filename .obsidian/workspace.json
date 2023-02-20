@@ -16,6 +16,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "paper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"pdf-annotator\",\"state\":{\"file\":\"papers/Deep Learning Hamiltonian Monte Carlo/paper.md\"}}",
+                  "eState": "{}"
                 }
               ]
             },
