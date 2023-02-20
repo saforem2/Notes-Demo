@@ -6,7 +6,7 @@
       {
         "id": "04b7027d46574375",
         "type": "tabs",
-        "dimension": 61.29392080312326,
+        "dimension": 37.723214285714285,
         "children": [
           {
             "id": "b12ecd97fc86ecec",
@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "67351be06e19c5bb",
+            "id": "b65362e9ad602757",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -90,20 +90,14 @@
               ]
             },
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md",
+                "mode": "source",
+                "source": false
               }
             }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "fe27423cdc735fa8",
-        "type": "tabs",
-        "dimension": 38.70607919687674,
-        "children": [
+          },
           {
             "id": "ca0e8cd9d3c250d0",
             "type": "leaf",
@@ -130,9 +124,17 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bc78e4e73d27d056",
+        "type": "tabs",
+        "dimension": 62.27678571428571,
+        "children": [
           {
-            "id": "b65362e9ad602757",
+            "id": "2ff526483a419435",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -144,16 +146,13 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md",
-                "mode": "source",
-                "source": false
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"
+                "file": "README.md"
               }
             }
           },
@@ -424,17 +423,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b65362e9ad602757",
+  "active": "238387f83f8859e3",
   "lastOpenFiles": [
-    "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
     "Home.md",
-    "README.md",
+    "papers/Deep Learning Hamiltonian Monte Carlo/notes.md",
+    "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
+    "README.md",
     "Excalidraw/networks.md",
     "Notes Demo.md",
     "slides/demo/slides.md",
     "slides/test.md",
-    "slides/demo/template.md",
-    "slides/demo/template1.md"
+    "slides/demo/template.md"
   ]
 }
