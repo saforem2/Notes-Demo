@@ -48,7 +48,7 @@ css:
 
 > [!example]
 > Here is an Example for an Callout in a Slide. Callouts support dark and white backgrounds and could be sized by annotations
-</grid>
+
 
 ---
 
@@ -74,6 +74,11 @@ css:
 
 :root {
     --callout-radius:5px;
+     --admonition-details-icon: url(data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>);
+    --admonition-margin-top: 1.5625em;
+    --admonition-margin-bottom: var(--admonition-margin-top);
+    --admonition-margin-top-lp: 0px;
+    --admonition-margin-bottom-lp: 12px;
     --r-math-color:#FAFAFA;
     --cm-inline-background: #242424;
     --cm-inline-foreground: #00CCFF;
@@ -152,6 +157,30 @@ css:
 	  --admonition-margin-bottom: var(--admonition-margin-top);
 	  --admonition-margin-top-lp: 0px;
 	  --admonition-margin-bottom-lp: 12px;
+	  --callout-border-width: 0px;
+	--callout-border-opacity: 0.25;
+	--callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
+	--callout-radius: var(--radius-s);
+	--callout-blend-mode: var(--highlight-mix-blend-mode);
+	--callout-title-color: inherit;
+	--callout-title-padding: 0;
+	--callout-title-size: inherit;
+	--callout-content-padding: 0;
+	--callout-content-background: transparent;
+	--callout-bug: var(--color-red-rgb);
+	--callout-default: var(--color-blue-rgb);
+	--callout-error: var(--color-red-rgb);
+	--callout-example: var(--color-purple-rgb);
+	--callout-fail: var(--color-red-rgb);
+	--callout-important: var(--color-cyan-rgb);
+	--callout-info: var(--color-blue-rgb);
+	--callout-question: var(--color-yellow-rgb);
+	--callout-success: var(--color-green-rgb);
+	--callout-summary: var(--color-cyan-rgb);
+	--callout-tip: var(--color-cyan-rgb);
+	--callout-todo: var(--color-blue-rgb);
+	--callout-warning: var(--color-orange-rgb);
+	--callout-quote: 158, 158, 158;
 }
 
 .standout{

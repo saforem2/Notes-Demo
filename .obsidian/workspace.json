@@ -33,8 +33,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6d3440ce1fdbc44",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "slides",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"slides/demo/slides.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":549,\"ch\":9}},\"scroll\":522.2467447916666}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slides/demo/template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a69b4cfe6918f421",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slides/demo/slides.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "slides/demo/slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "slides/demo/slides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "slides/demo/slides.md"
               }
             }
           },
@@ -281,7 +330,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,14 +354,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fb633ad398fbce5d",
+  "active": "a69b4cfe6918f421",
   "lastOpenFiles": [
-    "README.md",
     "Home.md",
-    "PeriodicNotes/2023/02/2023-02-19.md",
-    "slides/demo/slides.md",
-    "templates/slides/slides.md",
     "slides/demo/template.md",
+    "slides/demo/slides.md",
+    "README.md",
+    "PeriodicNotes/2023/02/2023-02-19.md",
+    "templates/slides/slides.md",
     "templates/slides/template.md",
     "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
     "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"

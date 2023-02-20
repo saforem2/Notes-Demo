@@ -37,8 +37,8 @@
       "copy": true
     }
   },
-  "syntaxHighlight": true,
-  "copyButton": false,
+  "syntaxHighlight": false,
+  "copyButton": true,
   "version": "9.2.1",
   "autoCollapse": true,
   "defaultCollapseType": "open",

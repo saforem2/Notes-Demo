@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "slides",
+      "path": "slides/demo/slides.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
+    },
+    {
+      "basename": "template",
+      "path": "slides/demo/template.md"
     },
     {
       "basename": "paper",
@@ -18,15 +26,7 @@
     },
     {
       "basename": "slides",
-      "path": "slides/demo/slides.md"
-    },
-    {
-      "basename": "slides",
       "path": "templates/slides/slides.md"
-    },
-    {
-      "basename": "template",
-      "path": "slides/demo/template.md"
     },
     {
       "basename": "template",
