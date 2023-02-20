@@ -5,8 +5,10 @@ transition: slide
 background: #1c1c1c
 preloadIframes: false
 highlightTheme: 'monokai'
-maxScale: 20.0
+maxScale: 0.8
 controls: false
+width: 960
+height: 540
 ---
 
 
@@ -43,11 +45,15 @@ Sam Foreman <!-- .element style="color:#505050;" -->
 # Interesting Title
 
 - Blah
-- Blah, blah
 
 ---
 
+<!-- .slide template="[[template]]" bg="#1c1c1c"  style="text-align: left;" width="100%" -->
 
+# Thank you!
+
+- Feel free to reach out!
+-  [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2) [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov) [<i class="fas fa-home"></i>](https://samforeman.me)
 
 > [!INFO] Acknowledgements
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
@@ -56,11 +62,6 @@ Sam Foreman <!-- .element style="color:#505050;" -->
 ---
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
-
-# Thank you!
-
-- Feel free to reach out!
--  [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2) [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov) [<i class="fas fa-home"></i>](https://samforeman.me)
 
 
 > [!INFO] Acknowledgements

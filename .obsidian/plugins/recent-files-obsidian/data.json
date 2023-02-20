@@ -9,16 +9,32 @@
       "path": "Home.md"
     },
     {
-      "basename": "notes",
-      "path": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"
+      "basename": "2023-02-19",
+      "path": "PeriodicNotes/2023/02/2023-02-19.md"
+    },
+    {
+      "basename": "slides",
+      "path": "slides/demo/slides.md"
+    },
+    {
+      "basename": "slides",
+      "path": "templates/slides/slides.md"
+    },
+    {
+      "basename": "template",
+      "path": "slides/demo/template.md"
+    },
+    {
+      "basename": "template",
+      "path": "templates/slides/template.md"
     },
     {
       "basename": "paper",
       "path": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
     },
     {
-      "basename": "2023-02-19",
-      "path": "PeriodicNotes/2023/02/2023-02-19.md"
+      "basename": "notes",
+      "path": "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"
     },
     {
       "basename": "networks",
@@ -31,26 +47,6 @@
     {
       "basename": "test",
       "path": "slides/test.md"
-    },
-    {
-      "basename": "slides",
-      "path": "slides/demo/slides.md"
-    },
-    {
-      "basename": "template",
-      "path": "slides/demo/template.md"
-    },
-    {
-      "basename": "template1",
-      "path": "slides/demo/template1.md"
-    },
-    {
-      "basename": "slides",
-      "path": "templates/slides/slides.md"
-    },
-    {
-      "basename": "template",
-      "path": "templates/slides/template.md"
     }
   ],
   "omittedPaths": [],

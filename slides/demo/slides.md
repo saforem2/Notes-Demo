@@ -42,42 +42,31 @@ css:
 ---
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
-# Slides Demo
+# Callouts
 
----
-
-<!-- .slide template="[[template]]" bg="#1c1c1c" style="text-align:left; line-height:1.5em;" -->
-
-
-<grid drag="30 30" drop="11 68" style="font-size:36px">
+- Icons are broken for some reason???
 
 > [!example]
 > Here is an Example for an Callout in a Slide. Callouts support dark and white backgrounds and could be sized by annotations
 </grid>
 
-
-
 ---
 
+<!-- .slide template="[[template]]" bg="#1c1c1c" style="text-align:left!important; align:left!important" -->
 
-# Thank you
+# Thank you!
 
-- Feel free to reach out!
+- Feel free to reach out! <br>
+<split gap="2">
 
-<split >
-
-[<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
-
-[<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
-
-[<i class="fas fa-home"></i>](https://samforeman.me)
-
+   [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
+   [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
+   [<i class="fas fa-home"></i>](https://samforeman.me)
 </split>
 
-
----
-
-# Slide 3
+> [!INFO] Acknowledgements
+> This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
+<!-- .element style="max-width:90%; text-align:left;" -->
 
 ---
 
