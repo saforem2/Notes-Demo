@@ -7,7 +7,8 @@
     "material-darker",
     "math_font",
     "list-callouts",
-    "callouts",
-    "clean-embeds-all"
+    "clean-embeds-all",
+    "custom-admonitions.ab0a7b",
+    "callouts"
   ]
 }

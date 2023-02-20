@@ -48,30 +48,24 @@ Sam Foreman <!-- .element style="color:#505050;" -->
 ---
 
 
+
 > [!INFO] Acknowledgements
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 <!-- .element style="max-width:90%; text-align:left;" -->
 
 ---
+
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 
 # Thank you!
 
 - Feel free to reach out!
-
-<grid drop="13 37" drag="60 20">
-
-[<i class="fas fa-home"></i>](https://samforeman.me) <!-- .element style="padding-right:17px; font-size:1.2em;" -->
-[<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov) <!-- .element style="padding-left:17px; padding-right:17px; font-size:1.2em;" -->
-[<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2) <!-- .element style="padding-left:17px; padding-right:17px; font-size:1.2em;" -->
-</grid>
+-  [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2) [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov) [<i class="fas fa-home"></i>](https://samforeman.me)
 
 
 > [!INFO] Acknowledgements
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
 <!-- .element style="max-width:90%;" -->
-
-
 
 
 

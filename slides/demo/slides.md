@@ -3,8 +3,11 @@ title: 'Slides'
 highlightTheme: monokai
 defaultTemplate: "template"
 center: true
+maxScale: 0.8
 width: 960
 height: 540
+css:
+  - ./local.css
 ---
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
@@ -12,23 +15,27 @@ height: 540
 <grid
 	  align="center"
 	  drop="center"
-	  drag="65 25"
+	  drag="50 25"
 	  style="background-color:#282828; border-radius:8px;">
 
-# Slides Demo
+## Slides Demo <!-- .element style="font-weight:900; font-size:1.5em" -->
 
 <a href="https://github.com/saforem2/Notes-Demo/blob/master/slides/demo/slides.md">
 <i class="fab fa-github fa-1x" ></i>
-<code><span style="color:#bdbdbd!important;background-color:#282828!important;">saforem2/Notes-Demo/slides/demo/slides</span></code>
+<code><span style="color:#bdbdbd!important;background-color:#282828!important;">saforem2/Notes-Demo/slides</span></code>
 </a>
 
 </grid>
 
 <grid drag="100 10" drop="0 70" align="bottomleft" >
 
-Sam Foreman <!-- .element style="color:#505050;" -->
+<a href="https://samforeman.me">
 
-<span style="font-size:0.9em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2023-02-19</span>
+<i class="fas fa-home" style=""></i>
+<span style="color: #BDBDBD;">Sam Foreman</span>
+</a>
+
+<span style="font-size:0.8em; color:#505050; padding:0px; margin:0px; text-align:center!important;">2023-02-19</span>
 
 </grid>
 
@@ -37,14 +44,31 @@ Sam Foreman <!-- .element style="color:#505050;" -->
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
 # Slides Demo
 
-> [!DANGER]+ Note callout
-> Testing
+---
 
-</p>
+<!-- .slide template="[[template]]" bg="#1c1c1c" style="text-align:left; line-height:1.5em;" -->
+
+> [!INFO]+ Note callout
+> Testing
+<!-- .element style=""
 
 ---
 
-# Slide 2
+
+# Thank you
+
+- Feel free to reach out!
+
+<split >
+
+[<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
+
+[<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
+
+[<i class="fas fa-home"></i>](https://samforeman.me)
+
+</split>
+
 
 ---
 
@@ -61,9 +85,7 @@ Sam Foreman <!-- .element style="color:#505050;" -->
     --cm-inline-foreground: #00CCFF;
     --r-heading-text-transform: none;
     --primaryBorderColor: #666666;
-    --r-heading-font: 'Inter', 'Arial', "OpenSans-Bold", "Open Sans", Helvetica, Impact, sans-serif;
     --r-main-background-color: #1c1c1c!important;
-    --r-main-font: 'Inter', "Arial", "Open Sans", "Coming Soon", "SourceSansPro", Helvetica Neue, sans-serif;
     --r-heading-letter-spacing: -0.45px;
     --r-heading-word-spacing: 0.5px;
     --r-heading-text-transform: none;
@@ -81,7 +103,7 @@ Sam Foreman <!-- .element style="color:#505050;" -->
     --r-heading6-size: 1.025em;
     --r-heading-line-height:1.5em;
     --r-main-font-family: 'Inter';
-    --r-code-font: "JuliaMono", "agave Nerd Font", "Hack", "VictorMono", monospace;
+    --r-code-font: "JuliaMono", "agave Nerd Font", "Monaco", "Hack", "VictorMono", monospace;
     --r-link-color: #03A9F4;
     --r-link-color-dark: #f92672;
     --r-link-color-hover: #63ff51;
@@ -131,6 +153,11 @@ Sam Foreman <!-- .element style="color:#505050;" -->
     --font-smoothing:subpixel-antialiased;
     --chart-color-1: #ff00ff;
     --chart-color-x: RGB(255.0,255.0,255.0);
+	  --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>");
+	  --admonition-margin-top: 1.5625em;
+	  --admonition-margin-bottom: var(--admonition-margin-top);
+	  --admonition-margin-top-lp: 0px;
+	  --admonition-margin-bottom-lp: 12px;
 }
 
 .standout{
@@ -177,7 +204,6 @@ Sam Foreman <!-- .element style="color:#505050;" -->
     color: var(--r-main-color);
     background-color: var(--r-main-background-color);
 }
-
 
 .reveal blockquote p {
     color: var(--text-muted);
@@ -272,7 +298,7 @@ Sam Foreman <!-- .element style="color:#505050;" -->
   border-radius: var(--callout-radius);
   margin: 1em 0;
   mix-blend-mode: var(--callout-blend-mode);
-  background-color: rgba(var(--callout-color), 0.1);
+  background-color: RGBA(var(--callout-color), 0.1);
   padding: var(--callout-padding);
 }
 .callout-title {
@@ -368,6 +394,7 @@ mjx-math {
   position: absolute !important;
   top: 0 !important;
 }
+
 section > h1 {
   position: absolute !important;
   top: 0 !important;
@@ -466,6 +493,55 @@ body.fallback-highlighting[class*="theme-"] .markdown-preview-view pre.cm-s-obsi
   font-family: var(--r-code-font);
   font-size: 18px;
   line-height:1.1em;
+}
+/* Content */
+
+/* Blockquotes */
+
+.markdown-preview-view blockquote {
+	padding: 0 0 0 var(--nested-padding);
+	font-size: var(--blockquote-size);
+}
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote,
+.markdown-source-view.mod-cm6 .HyperMD-quote {
+	font-size: var(--blockquote-size);
+}
+.is-live-preview .cm-hmd-indent-in-quote {
+	color: var(--text-faint);
+}
+
+/* Callouts */
+
+.is-live-preview.is-readable-line-width > .cm-callout .callout {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.callouts-outlined .callout .callout-title {
+	background-color: var(--background-primary);
+	margin-top: -24px;
+	z-index: 200;
+	width: fit-content;
+	padding: 0 0.5em;
+	margin-left: -0.75em;
+	letter-spacing: 0.05em;
+	font-variant-caps: all-small-caps;
+}
+.callouts-outlined .callout {
+	overflow: visible;
+	--callout-border-width: 1px;
+	--callout-border-opacity: 0.5;
+	--callout-title-size: 0.8em;
+	--callout-blend-mode: normal;
+	background-color: transparent;
+}
+
+.callouts-outlined .cm-embed-block.cm-callout {
+	padding-top: 12px;
+}
+
+.callouts-outlined .callout-content .callout {
+	margin-top: 18px;
 }
 
 </style>

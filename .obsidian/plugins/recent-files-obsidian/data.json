@@ -2,11 +2,23 @@
   "recentFiles": [
     {
       "basename": "slides",
-      "path": "templates/slides/slides.md"
+      "path": "slides/demo/slides.md"
+    },
+    {
+      "basename": "template",
+      "path": "slides/demo/template.md"
+    },
+    {
+      "basename": "template1",
+      "path": "slides/demo/template1.md"
     },
     {
       "basename": "slides",
-      "path": "slides/demo/slides.md"
+      "path": "templates/slides/slides.md"
+    },
+    {
+      "basename": "template",
+      "path": "templates/slides/template.md"
     },
     {
       "basename": "2023-02-19",

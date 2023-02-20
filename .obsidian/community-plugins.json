@@ -65,7 +65,6 @@
   "table-editor-obsidian",
   "daily-notes-editor",
   "obsidian-new-note-new-window",
-  "obsidian-advanced-slides",
   "obsidian-paper-import",
   "mermaid-tools",
   "obsidian-wakatime",
@@ -83,5 +82,7 @@
   "quick-explorer",
   "obsidian-remember-file-state",
   "actions-uri",
-  "obsidian-icon-shortcodes"
+  "obsidian-icon-shortcodes",
+  "obsidian-advanced-slides",
+  "obsidian-admonition"
 ]

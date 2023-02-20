@@ -5,5 +5,7 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolderPath": "./assets",
+  "showUnsupportedFiles": true
 }

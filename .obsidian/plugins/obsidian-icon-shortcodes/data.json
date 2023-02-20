@@ -1,6 +1,6 @@
 {
   "code2emoji": true,
-  "suggester": true,
+  "suggester": false,
   "disabledPacks": [],
   "triggerWithTrailingSpace": false,
   "spaceAfterSC": false,

@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "1d03624d5511b7ae",
+            "id": "7ea558746d496496",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -49,21 +49,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/slides/slides.md",
+                "file": "slides/demo/template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "deafe31d77d4754d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slides/demo/template1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "eebb630184952f33",
+        "id": "6e3544238714cab1",
         "type": "tabs",
         "children": [
           {
-            "id": "b0873e723d6eb99f",
+            "id": "c60c93df5d04a214",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -173,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0656439132e9919",
@@ -199,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/slides/slides.md",
+                "file": "slides/demo/slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/slides/slides.md",
+                "file": "slides/demo/slides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/slides/slides.md"
+                "file": "slides/demo/slides.md"
               }
             }
           },
@@ -331,7 +350,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -347,18 +365,21 @@
       "obsidian-trim-whitespace:Trim whitespace": false,
       "webpage-html-export:Export Vault to HTML": false,
       "periodic-notes:Open today": false,
-      "publish:Publish changes": false
+      "publish:Publish changes": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1d03624d5511b7ae",
+  "active": "2dac5c464fc32e08",
   "lastOpenFiles": [
+    "slides/demo/template.md",
     "slides/demo/slides.md",
+    "slides/demo/template1.md",
     "templates/slides/slides.md",
+    "templates/slides/template.md",
     "slides/ai4sci-large-scale-training/slides.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
     "Home.md",
     "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
-    "2023-02-19.md",
-    "Notes Demo.md"
+    "2023-02-19.md"
   ]
 }
