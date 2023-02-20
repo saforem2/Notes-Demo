@@ -1,3 +1,5 @@
 export/*
 .trash/*
+old/*
+
 *.DS_Store
