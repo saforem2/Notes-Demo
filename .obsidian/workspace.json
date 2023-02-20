@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04b7027d46574375",
+        "id": "f488ec010e2d0446",
         "type": "tabs",
         "children": [
           {
-            "id": "fb633ad398fbce5d",
+            "id": "286ecf4cbf2ad004",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "paper",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"pdf-annotator\",\"state\":{\"file\":\"papers/Deep Learning Hamiltonian Monte Carlo/paper.md\"}}",
                   "eState": "{}"
                 }
               ]
@@ -33,57 +27,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b6d3440ce1fdbc44",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "slides",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"slides/demo/slides.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":549,\"ch\":9}},\"scroll\":522.2467447916666}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a69b4cfe6918f421",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/slides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,8 +275,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -354,7 +298,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a69b4cfe6918f421",
+  "active": "286ecf4cbf2ad004",
   "lastOpenFiles": [
     "Home.md",
     "slides/demo/template.md",
