@@ -144,16 +144,9 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "f93e5cb2a122e772",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6ffce6546a30af0f",
+            "id": "fb633ad398fbce5d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -165,11 +158,14 @@
               ]
             },
             "state": {
-              "type": "reveal-preview-view",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -289,7 +285,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
               }
             }
           },
@@ -440,8 +436,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "238387f83f8859e3",
+  "active": "fb633ad398fbce5d",
   "lastOpenFiles": [
+    "README.md",
     "Home.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
     "slides/demo/slides.md",
@@ -449,7 +446,6 @@
     "slides/demo/template.md",
     "templates/slides/template.md",
     "papers/Deep Learning Hamiltonian Monte Carlo/paper.md",
-    "README.md",
     "papers/Deep Learning Hamiltonian Monte Carlo/notes.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "paper",
+      "path": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "template",
       "path": "templates/slides/template.md"
-    },
-    {
-      "basename": "paper",
-      "path": "papers/Deep Learning Hamiltonian Monte Carlo/paper.md"
     },
     {
       "basename": "notes",
