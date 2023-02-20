@@ -4,86 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f971a47bc769e13",
+        "id": "04b7027d46574375",
         "type": "tabs",
         "children": [
           {
-            "id": "2dac5c464fc32e08",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "slides",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"templates/slides/slides.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":25},\"to\":{\"line\":8,\"ch\":25}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/slides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ea558746d496496",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "deafe31d77d4754d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/template1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "6e3544238714cab1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c60c93df5d04a214",
+            "id": "c96519e89eaa5971",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -98,8 +23,30 @@
               "type": "reveal-preview-view",
               "state": {}
             }
+          },
+          {
+            "id": "b12ecd97fc86ecec",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slides/demo/slides.md"
+                "file": "Home.md"
               }
             }
           },
@@ -345,8 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -364,22 +310,22 @@
       "obsidian42-brat:BRAT": false,
       "obsidian-trim-whitespace:Trim whitespace": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "periodic-notes:Open today": false,
       "publish:Publish changes": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "2dac5c464fc32e08",
+  "active": "b12ecd97fc86ecec",
   "lastOpenFiles": [
-    "slides/demo/template.md",
+    "Home.md",
     "slides/demo/slides.md",
+    "slides/test.md",
+    "slides/demo/template.md",
     "slides/demo/template1.md",
     "templates/slides/slides.md",
     "templates/slides/template.md",
     "slides/ai4sci-large-scale-training/slides.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
-    "Home.md",
-    "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md",
-    "2023-02-19.md"
+    "Excalidraw/Drawing 2023-02-19 08.05.53.excalidraw.md"
   ]
 }

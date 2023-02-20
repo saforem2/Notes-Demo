@@ -7,7 +7,7 @@ maxScale: 0.8
 width: 960
 height: 540
 css:
-  - ./local.css
+  - ./app.css
 ---
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" -->
@@ -48,9 +48,14 @@ css:
 
 <!-- .slide template="[[template]]" bg="#1c1c1c" style="text-align:left; line-height:1.5em;" -->
 
-> [!INFO]+ Note callout
-> Testing
-<!-- .element style=""
+
+<grid drag="30 30" drop="11 68" style="font-size:36px">
+
+> [!example]
+> Here is an Example for an Callout in a Slide. Callouts support dark and white backgrounds and could be sized by annotations
+</grid>
+
+
 
 ---
 
@@ -543,6 +548,11 @@ body.fallback-highlighting[class*="theme-"] .markdown-preview-view pre.cm-s-obsi
 .callouts-outlined .callout-content .callout {
 	margin-top: 18px;
 }
+
+.callout[data-callout="custom-question-type"] {
+	--callout-color:  '#FF5252';
+	 --callout-icon: lucide-alert-circle;
+ }
 
 </style>
 

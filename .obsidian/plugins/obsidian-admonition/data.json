@@ -7,7 +7,7 @@
         "name": "bolt",
         "type": "font-awesome"
       },
-      "command": false,
+      "command": true,
       "injectColor": true,
       "noTitle": true,
       "copy": true
@@ -19,7 +19,7 @@
         "name": "pencil-alt",
         "type": "font-awesome"
       },
-      "command": false,
+      "command": true,
       "injectColor": true,
       "noTitle": true,
       "copy": true
@@ -31,16 +31,16 @@
         "type": "obsidian",
         "name": "checkbox-glyph"
       },
-      "command": false,
+      "command": true,
       "injectColor": true,
       "noTitle": true,
       "copy": true
     }
   },
-  "syntaxHighlight": false,
+  "syntaxHighlight": true,
   "copyButton": false,
   "version": "9.2.1",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
@@ -52,7 +52,10 @@
     "other": true,
     "advanced": true
   },
-  "icons": [],
+  "icons": [
+    "octicons",
+    "rpg"
+  ],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,

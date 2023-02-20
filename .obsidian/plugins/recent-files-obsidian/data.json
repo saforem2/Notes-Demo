@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "test",
+      "path": "slides/test.md"
+    },
+    {
       "basename": "slides",
       "path": "slides/demo/slides.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "2023-02-19",
       "path": "PeriodicNotes/2023/02/2023-02-19.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Drawing 2023-02-19 08.05.53.excalidraw",
