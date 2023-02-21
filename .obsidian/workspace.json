@@ -29,6 +29,39 @@
             }
           }
         ]
+      },
+      {
+        "id": "bace38662ea1a03d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "442903e2f2cff7ef",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PeriodicNotes/2023/02/2023-02-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "PeriodicNotes/2023/02/2023-02-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "PeriodicNotes/2023/02/2023-02-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slides/demo/slides.md"
+                "file": "PeriodicNotes/2023/02/2023-02-20.md"
               }
             }
           },
@@ -237,23 +270,6 @@
             }
           },
           {
-            "id": "da2ca0484c0a255e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "55f83bfde05e72a8",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -269,13 +285,22 @@
               "type": "chronology-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "a367fd9afadfb738",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,7 +323,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "286ecf4cbf2ad004",
+  "active": "442903e2f2cff7ef",
   "lastOpenFiles": [
     "Home.md",
     "slides/demo/template.md",

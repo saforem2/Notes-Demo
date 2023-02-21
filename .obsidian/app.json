@@ -1,6 +1,6 @@
 {
   "vimMode": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "spellcheck": true,
   "trashOption": "local",
   "alwaysUpdateLinks": true,

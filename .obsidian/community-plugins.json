@@ -12,7 +12,6 @@
   "maximise-active-pane-obsidian",
   "obsidian-git",
   "settings-search",
-  "calendar",
   "obsidian-citation-plugin",
   "customizable-menu",
   "daily-activity",
@@ -82,5 +81,6 @@
   "obsidian-remember-file-state",
   "actions-uri",
   "obsidian-advanced-slides",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "calendar"
 ]
