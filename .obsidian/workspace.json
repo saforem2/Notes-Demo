@@ -4,17 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "f488ec010e2d0446",
+        "id": "cdcaf3ebe9c93f05",
         "type": "tabs",
         "children": [
           {
-            "id": "286ecf4cbf2ad004",
+            "id": "e9ce00ebbac11a39",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c172d5bd1e7a7b1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.1.15",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.1.15\"}}",
                   "eState": "{}"
                 }
               ]
@@ -28,14 +51,15 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "bace38662ea1a03d",
         "type": "tabs",
         "children": [
           {
-            "id": "442903e2f2cff7ef",
+            "id": "ea7b5cdc3b72905c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -299,8 +323,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,8 +346,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "442903e2f2cff7ef",
+  "active": "ea7b5cdc3b72905c",
   "lastOpenFiles": [
+    "PeriodicNotes/2023/02/2023-02-20.md",
     "Home.md",
     "slides/demo/template.md",
     "slides/demo/slides.md",
