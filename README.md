@@ -2,6 +2,9 @@
 
 Example Obsidian vault complete with customizations etc
 
+- Automatically import links from the web into your daily note:
+	![import-links](assets/import-links.gif)
+
 - Daily notes (right) with TODOs automatically tracked on Home screen (left)
 	![](./assets/daily.png)
 
