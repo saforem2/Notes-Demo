@@ -1,4 +1,6 @@
 .trash/*
 old/*
 
+*old*
+
 *.DS_Store
