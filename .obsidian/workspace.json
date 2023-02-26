@@ -84,30 +84,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "978ddf7a5e80ddec",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "PeriodicNotes/2023/02/2023-02-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "PeriodicNotes/2023/02/2023-02-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "PeriodicNotes/2023/02/2023-02-20.md"
               }
             }
           },
@@ -368,8 +346,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "978ddf7a5e80ddec",
+  "active": "ea7b5cdc3b72905c",
   "lastOpenFiles": [
+    "README.md",
     "assets/old/screenshot-2023-02-25-154233.gif",
     "assets/old/screenshot-2023-02-19-195142@2x.png",
     "assets/old/import-links2.gif",
@@ -381,11 +360,9 @@
     "assets/New Folder With Items/import-links1.gif",
     "assets/New Folder With Items",
     "PeriodicNotes/2023/02/2023-02-20.md",
-    "README.md",
     "Home.md",
     "assets/import-links.gif",
     "assets/import-links2.gif",
-    "assets/screenshot-2023-02-25-154233 2.gif",
     "slides/demo/template.md",
     "slides/demo/slides.md",
     "PeriodicNotes/2023/02/2023-02-19.md",
