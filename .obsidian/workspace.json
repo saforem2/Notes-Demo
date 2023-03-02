@@ -20,66 +20,9 @@
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c172d5bd1e7a7b1",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Release Notes 1.1.15",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.1.15\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "bace38662ea1a03d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ea7b5cdc3b72905c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PeriodicNotes/2023/02/2023-02-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PeriodicNotes/2023/02/2023-02-20.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PeriodicNotes/2023/02/2023-02-20.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PeriodicNotes/2023/02/2023-02-20.md"
+                "file": "Home.md"
               }
             }
           },
@@ -341,12 +284,12 @@
       "webpage-html-export:Export Vault to HTML": false,
       "publish:Publish changes": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "ea7b5cdc3b72905c",
+  "active": "e9ce00ebbac11a39",
   "lastOpenFiles": [
     "README.md",
     "assets/old/screenshot-2023-02-25-154233.gif",
