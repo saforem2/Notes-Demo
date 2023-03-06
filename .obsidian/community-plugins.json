@@ -2,7 +2,6 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "homepage",
-  "obsidian-annotator",
   "obsidian-linter",
   "periodic-notes",
   "obsidian-minimal-settings",
@@ -81,5 +80,6 @@
   "actions-uri",
   "obsidian-advanced-slides",
   "obsidian-admonition",
-  "calendar"
+  "calendar",
+  "obsidian-annotator"
 ]

@@ -1699,6 +1699,7 @@ var DEFAULT = {
   momentFormat: "YYYY-MM-DD",
   workspace: "Home",
   workspaceEnabled: false,
+  openOnStartup: true,
   hasRibbonIcon: true,
   openMode: Mode.ReplaceAll,
   manualOpenMode: Mode.Retain,
@@ -1730,10 +1731,10 @@ var HomepageSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.containerEl.insertAdjacentHTML("afterbegin", "<div class='mod-warning' style='margin-bottom: 20px'>Daily Notes' 'Open daily note on startup' setting is not compatible with this plugin, so functionality has been disabled.</div>");
     }
     const suggestor = workspacesMode ? WorkspaceSuggest : FileSuggest;
-    const homepageDesc = `The name of the ${workspacesMode ? "workspace" : "note or canvas"} to open on startup.`;
+    const homepageDesc = `The name of the ${workspacesMode ? "workspace" : "note or canvas"} to open.`;
     const homepage = workspacesMode ? "workspace" : "defaultNote";
     if (this.plugin.settings.useMoment && !workspacesMode) {
-      let dateSetting = new import_obsidian2.Setting(this.containerEl).setName("Homepage format").setDesc("A valid Moment format specification determining the note or canvas to be opened on startup.").addMomentFormat((text) => text.setDefaultFormat("YYYY-MM-DD").setValue(this.plugin.settings.momentFormat).onChange((value) => __async(this, null, function* () {
+      let dateSetting = new import_obsidian2.Setting(this.containerEl).setName("Homepage format").setDesc("A valid Moment format specification determining the note or canvas to open.").addMomentFormat((text) => text.setDefaultFormat("YYYY-MM-DD").setValue(this.plugin.settings.momentFormat).onChange((value) => __async(this, null, function* () {
         this.plugin.settings.momentFormat = value;
         yield this.plugin.saveSettings();
       })));
@@ -1755,10 +1756,10 @@ var HomepageSettingTab = class extends import_obsidian2.PluginSettingTab {
     if ((_a = this.plugin.workspacePlugin) == null ? void 0 : _a.enabled) {
       this.addToggle("Use workspaces", "Open a workspace, instead of a note or canvas, as the homepage.", "workspaceEnabled", (_) => this.display(), true);
     }
-    let ribbonSetting = this.addToggle("Use ribbon icon", "Show a little house on the ribbon, allowing you to quickly access the homepage.", "hasRibbonIcon", (value) => this.plugin.setIcon(value), true);
-    ribbonSetting.settingEl.setAttribute("style", "padding-top: 70px; border-top: none !important");
+    this.addToggle("Open on startup", "When launching Obsidian, open the homepage.", "openOnStartup", (_) => this.display(), true).settingEl.setAttribute("style", "padding-top: 30px; border-top: none !important");
+    this.addToggle("Use ribbon icon", "Show a little house on the ribbon, allowing you to quickly access the homepage.", "hasRibbonIcon", (value) => this.plugin.setIcon(value), true);
     this.addHeading("Vault environment");
-    this.addDropdown("Opening method", "Determine how extant tabs and panes are affected on startup.", "openMode", Mode);
+    let openingSetting = this.addDropdown("Opening method", "Determine how extant tabs and panes are affected on startup.", "openMode", Mode);
     this.addDropdown("Manual opening method", "Determine how extant tabs and panes are affected when opening with commands or the ribbon button.", "manualOpenMode", Mode);
     this.addToggle("Auto-create", "If the homepage doesn't exist, create a note with the specified name.", "autoCreate");
     this.addToggle("Pin", "Pin the homepage when opening.", "pin");
@@ -1767,15 +1768,18 @@ var HomepageSettingTab = class extends import_obsidian2.PluginSettingTab {
     this.addToggle("Revert view on close", "When navigating away from the homepage, restore the default view.", "revertView", (value) => this.plugin.setReversion(value));
     this.addToggle("Auto-scroll", "When opening the homepage, scroll to the bottom and focus on the last line.", "autoScroll");
     if (getDataviewPlugin(this.plugin.app)) {
-      let refreshSetting = this.addToggle("Refresh Dataview", "Always attempt to reload Dataview views when opening the homepage.", "refreshDataview");
-      refreshSetting.descEl.createDiv({
+      this.addToggle("Refresh Dataview", "Always attempt to reload Dataview views when opening the homepage.", "refreshDataview").descEl.createDiv({
         text: "Requires Dataview auto-refresh to be enabled.",
         attr: { class: "mod-warning" }
       });
     }
-    if (workspacesMode) {
-      Array.from(document.getElementsByClassName(HIDDEN)).forEach((s) => s.setAttribute("style", "opacity: .5; pointer-events: none !important"));
-    }
+    if (workspacesMode)
+      Array.from(document.getElementsByClassName(HIDDEN)).forEach(this.disableSetting);
+    if (!this.settings.openOnStartup)
+      this.disableSetting(openingSetting.settingEl);
+  }
+  disableSetting(setting) {
+    setting.setAttribute("style", "opacity: .5; pointer-events: none !important");
   }
   addHeading(name) {
     const heading = new import_obsidian2.Setting(this.containerEl).setHeading().setName(name);
@@ -1894,7 +1898,7 @@ var Homepage = class extends import_obsidian3.Plugin {
             return yield ntp._checkForNewTab(e);
           });
         }
-        if (activeInitially)
+        if (activeInitially && this.settings.openOnStartup)
           yield this.openHomepage();
         this.loaded = true;
       }));

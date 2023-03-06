@@ -12,8 +12,9 @@ summary.github-publisher-summary {
 }
 .setting-item.github-publisher-censor-entry {
 	border: 0 !important;
-	padding: 0 !important;
+	padding: 5px !important;
 }
+
 hr.github-publisher-hr {
 	margin: 1px !important;
 	padding-bottom: 1px;
@@ -21,22 +22,11 @@ hr.github-publisher-hr {
 .setting-item.github-publisher-censor-entry input[placeholder="flags"] {
 	width: 50px;
 }
+
 .setting-item.github-publisher-censor-entry .setting-item-info {
 	display: none;
 }
-.setting-item.github-publisher-censor-entry .setting-item-control {
-	width: auto;
-}
-.setting-item.github-publisher-censor-entry
-	> .setting-item-control
-	> input[type="text"]:first-child {
-	width: 300px;
-}
-.setting-item.github-publisher-censor-entry
-	> .setting-item-control
-	> input[type="text"]:nth-child(2) {
-	width: 250px;
-}
+
 button.github-publisher-censor-flags {
 	box-shadow: none;
 	background-color: transparent;
@@ -239,3 +229,19 @@ a.github-publisher-download:hover{
 	font-size: 14px;
 }
 
+.github-publisher-disabled-button {
+	pointer-events: none;
+	opacity: 0.5;
+	font-style: italic;
+	color: var(--text-muted);
+	cursor: default;
+	box-shadow: none !important;
+	border: none !important;
+	background-color: transparent !important;
+	font-family: var(--font-monospace);
+
+}
+
+.github-publisher-modals {
+	border-top: 0 !important;
+}

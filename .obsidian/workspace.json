@@ -4,17 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "6505c752afbd5985",
+        "id": "4881a2b1b9d4d35d",
         "type": "tabs",
         "children": [
           {
-            "id": "fba46b89abb6db53",
+            "id": "d35d52c33f8a19ab",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "8ae3b869d2526f34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3687a21c71ed7a4e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "paper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"pdf-annotator\",\"state\":{\"file\":\"papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/paper.md\"}}",
                   "eState": "{}"
                 }
               ]
@@ -122,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0656439132e9919",
@@ -256,6 +284,15 @@
           {
             "id": "a367fd9afadfb738",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "calendar",
               "state": {}
@@ -289,8 +326,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fba46b89abb6db53",
+  "active": "3687a21c71ed7a4e",
   "lastOpenFiles": [
+    "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/notes.md",
+    "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/paper.md",
+    "Home.md",
+    "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory",
     "README.md",
     "assets/old/screenshot-2023-02-25-154233.gif",
     "assets/old/screenshot-2023-02-19-195142@2x.png",
@@ -303,7 +344,6 @@
     "assets/New Folder With Items/import-links1.gif",
     "assets/New Folder With Items",
     "PeriodicNotes/2023/02/2023-02-20.md",
-    "Home.md",
     "assets/import-links.gif",
     "assets/import-links2.gif",
     "slides/demo/template.md",
