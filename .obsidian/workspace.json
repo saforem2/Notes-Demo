@@ -4,34 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4881a2b1b9d4d35d",
+        "id": "9a1f9683f09dd568",
         "type": "tabs",
         "children": [
           {
-            "id": "d35d52c33f8a19ab",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "8ae3b869d2526f34",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3687a21c71ed7a4e",
+            "id": "db5a353b23c9c897",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -146,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0656439132e9919",
@@ -171,6 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +215,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -304,21 +286,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "chronology:Open Chronology": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-trim-whitespace:Trim whitespace": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "1d3c3aa040400289",
+  "active": "db5a353b23c9c897",
   "lastOpenFiles": [
     "Home.md",
+    "PeriodicNotes/2023/03/2023-03-16.md",
+    "PeriodicNotes/2023/03",
     "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/notes.md",
     "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/paper.md",
     "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory",

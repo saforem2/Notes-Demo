@@ -5,6 +5,10 @@
       "path": "Home.md"
     },
     {
+      "basename": "2023-03-16",
+      "path": "PeriodicNotes/2023/03/2023-03-16.md"
+    },
+    {
       "basename": "paper",
       "path": "papers/Conditional normalizing flow for Markov chain Monte Carlo sampling in the critical region of lattice field theory/paper.md"
     },
