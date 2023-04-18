@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7049097f890e5f2d",
+        "id": "ebf3bec6a771aec3",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d1a0ce9c2b3ff2",
+            "id": "aef6fe4753c0c61c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -27,30 +27,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0ffea9561a6b324f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slides/demo/slides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slides/demo/slides.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slides/demo/slides.md"
+                "file": "Home.md"
               }
             }
           },
@@ -320,7 +298,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0ffea9561a6b324f",
+  "active": "aef6fe4753c0c61c",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
