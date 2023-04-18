@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "slides",
+      "path": "templates/slides/slides.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "2023-02-19",
       "path": "PeriodicNotes/2023/02/2023-02-19.md"
-    },
-    {
-      "basename": "slides",
-      "path": "templates/slides/slides.md"
     },
     {
       "basename": "template",
