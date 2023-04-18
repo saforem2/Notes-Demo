@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf3bec6a771aec3",
+        "id": "1c5ccccbaf99ad8c",
         "type": "tabs",
         "children": [
           {
-            "id": "aef6fe4753c0c61c",
+            "id": "0f642802a4a3a7cf",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -26,51 +26,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "cec2aacef1eab4b7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/slides/slides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0daebd768595a0de",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5094bfe5f46e62e2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -194,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/slides/slides.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/slides/slides.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/slides/slides.md"
+                "file": "Home.md"
               }
             }
           },
@@ -321,8 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -345,7 +299,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cec2aacef1eab4b7",
+  "active": "0f642802a4a3a7cf",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
