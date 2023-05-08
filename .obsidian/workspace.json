@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f45662a046c36e56",
+        "id": "51c30acc138656a6",
         "type": "tabs",
         "children": [
           {
-            "id": "42ced46b1a60f62f",
+            "id": "83bdf54738ddf840",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -115,6 +115,14 @@
             },
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "4bd408489ad37c4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -280,12 +288,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes": false,
       "templater-obsidian:Templater": false,
       "chronology:Open Chronology": false,
       "obsidian42-brat:BRAT": false,
@@ -299,7 +307,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "42ced46b1a60f62f",
+  "active": "83bdf54738ddf840",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
