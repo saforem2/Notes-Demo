@@ -126,13 +126,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d0656439132e9919",
@@ -307,7 +305,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "83bdf54738ddf840",
+  "active": "124c4992ca934f8c",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
