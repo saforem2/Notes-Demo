@@ -4,25 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4e43ba58105719ed",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "state": "{}",
-              "eState": "{}"
+        "id": "c414c285b6f588e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae6bb7139a84c990",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Home.md",
-            "mode": "source",
-            "source": false
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d0656439132e9919",
@@ -276,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,7 +307,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e43ba58105719ed",
+  "active": "ae6bb7139a84c990",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
