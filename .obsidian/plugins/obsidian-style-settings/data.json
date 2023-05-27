@@ -3,7 +3,7 @@
   "CodeMirror Options@@cm5-minimal-embeds": true,
   "buttons-styles@@button-background@@dark": "#505050",
   "buttons-styles@@button-border@@dark": "#353535",
-  "CodeMirror Options@@cm-font-monospace": "JuliaMono,VictorMono,agave NerdFont Mono,Jetbrains Mono, SFMono-Regular, Consolas, \"Roboto Mono\", monospace",
+  "CodeMirror Options@@cm-font-monospace": "agave Nerd Font",
   "CodeMirror Options@@cm-active-line-background-color@@dark": "#353535",
   "CodeMirror Options@@cm-foreground-color@@dark": "#E0E0E0",
   "things-style@@tag-background-color-d": "#FFFF00",
@@ -49,7 +49,7 @@
   "embedded-note-paths@@embedded-note-path-size": 10,
   "embedded-note-paths@@embedded-note-path-weight": 500,
   "minimal-style@@list-indent": 2,
-  "minimal-advanced@@folding-offset": 10,
+  "minimal-advanced@@folding-offset": 9,
   "minimal-style@@row-lines": false,
   "minimal-style@@ig-adjust-reading": -0.55,
   "minimal-style@@h1-color@@light": "#111111",
@@ -69,7 +69,6 @@
   "minimal-style@@h4-variant": "normal",
   "minimal-style@@h5-size": "1em",
   "minimal-style@@h5-variant": "normal",
-  "minimal-style@@code-size": "14px",
   "minimal-style@@title-color@@dark": "#FFFFFF",
   "minimal-advanced@@styled-scrollbars": false,
   "minimal-style@@ui3@@dark": "#50505040",
@@ -94,7 +93,6 @@
   "minimal-style@@tabs-style": "tabs-modern",
   "minimal-style@@minimal-tab-text-color-active@@dark": "#F5F5F5",
   "minimal-style@@minimal-tab-text-color@@dark": "#9E9E9E",
-  "minimal-style@@h4-font": "\"\"",
   "minimal-style@@minimal-code-scroll": true,
   "minimal-style@@code-operator@@dark": "#FF5252",
   "minimal-style@@code-value@@dark": "#4DB6AC",
@@ -108,6 +106,5 @@
   "minimal-style@@h1-weight": 800,
   "minimal-style@@h2-weight": 700,
   "minimal-style@@h3-weight": 600,
-  "minimal-style@@callouts-style": "callouts-outlined",
-  "minimal-style@@h1-font": "Chalkboard"
+  "minimal-style@@callouts-style": "callouts-outlined"
 }
