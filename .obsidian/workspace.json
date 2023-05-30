@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4198c587c6de5d26",
+        "id": "88fe8dc0a3463d65",
         "type": "tabs",
         "children": [
           {
-            "id": "880ec561a52d4c96",
+            "id": "06938dbaf16b493d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -283,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,7 +306,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "880ec561a52d4c96",
+  "active": "06938dbaf16b493d",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
