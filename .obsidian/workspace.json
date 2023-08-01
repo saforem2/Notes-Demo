@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "959e707c7c739e17",
+        "id": "a261f9fb77cfa15e",
         "type": "tabs",
         "children": [
           {
-            "id": "627179462465b18c",
+            "id": "abe61a99e5427a6a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d5ea6a551198b0a2",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Release Notes 1.3.7",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.3.7\"}}",
                   "eState": "{}"
                 }
               ]
@@ -28,7 +42,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,7 +321,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "627179462465b18c",
+  "active": "d5ea6a551198b0a2",
   "lastOpenFiles": [
     "Home.md",
     "PeriodicNotes/2023/03/2023-03-16.md",
